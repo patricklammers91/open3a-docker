@@ -1,6 +1,6 @@
 services:
   open3a:
-    image: open3a:latest
+    image: patricklammers1991/open3a:latest
     ports:
       - "8080:80"
     restart: always
