@@ -1,0 +1,11 @@
+services:
+  open3a:
+    image: open3a:latest
+    ports:
+      - "8080:80"
+    restart: always
+    volumes:
+      - /dbdata:/var/www/html/system/DBData
+      - /backup:/var/www/html/system/Backup
+      - /specifics:/var/www/html/specifics
+
